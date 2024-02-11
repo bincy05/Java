@@ -15,16 +15,16 @@ a[i]=sc.nextInt();
 
 System.out.println("Even elements are:");
 for(i=0;i<=a.length-1;i++){
-if(a[i]%2==0){
-System.out.println(a[i]+" ");
-}
+ if(a[i]%2==0){
+  System.out.println(a[i]+" ");
+ }
 }
 
 System.out.println("Odd elements are:");
 for(i=0;i<=a.length-1;i++){
-if(a[i]%2!=0){
-System.out.println(a[i]+" ");
-}
+ if(a[i]%2!=0){
+    System.out.println(a[i]+" ");
+ }
 }
 }
 }
